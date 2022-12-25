@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7936487424586913477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6376895430173484246}
+  - component: {fileID: -8123229081728283564}
+  - component: {fileID: 6909006984794445520}
+  - component: {fileID: -5544323353602552210}
+  - component: {fileID: -4043265053161748891}
+  - component: {fileID: 8315662446573186518}
+  m_Layer: 0
+  m_Name: asteroid2
+  m_TagString: Asteroid
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6376895430173484246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936487424586913477}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &-8123229081728283564
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936487424586913477}
+  m_Mesh: {fileID: -2432090755550338912, guid: 9cc3b23cb500c474ba258522edb5a716, type: 3}
+--- !u!23 &6909006984794445520
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936487424586913477}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e0231511c1fa5f0478c797a148dc269a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &-5544323353602552210
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936487424586913477}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2432090755550338912, guid: 9cc3b23cb500c474ba258522edb5a716, type: 3}
+--- !u!54 &-4043265053161748891
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936487424586913477}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 4
+  m_CollisionDetection: 0
+--- !u!114 &8315662446573186518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936487424586913477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 303ba89ee0503a2428752ede5cc68b43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 60
+  asteroidIndex: 1
+  parts1:
+  - {fileID: 5036388980285089652, guid: 33580bfad29990345a5a8948fb788c3f, type: 3}
+  - {fileID: 6617619014368014228, guid: 77b32704e81f39d40817db61ae2b0035, type: 3}
+  - {fileID: 7974317130181131904, guid: e7a782aa36960b742b1557a97c0ea9c9, type: 3}
+  - {fileID: 2899853723505191345, guid: d882759d3e651b8438ad76d2472a4928, type: 3}
+  parts2:
+  - {fileID: 4975725434377958356, guid: 634de0e9f4f576f4eb63fc497331c0ac, type: 3}
+  - {fileID: 5363357971612747950, guid: 46e4b6a2c2d6d7a4b8bd60be578026bd, type: 3}
+  - {fileID: 9011780142318175222, guid: 08d27ccedd51eec419d3cdb48fa24246, type: 3}
+  - {fileID: 1015925942689605136, guid: 02d1c5ceb3deb5e4d9445fd4878ba35e, type: 3}
+  - {fileID: 447427879068643662, guid: d9ebb87cf8598c740ad7b9b855919c8c, type: 3}
+  dust: {fileID: 7966596788076952033, guid: e547ada26c546a743854b236b53f67dc, type: 3}
+  stoneNoise: {fileID: 8300000, guid: d61f1109d65579d4a93b8407a514a46d, type: 3}

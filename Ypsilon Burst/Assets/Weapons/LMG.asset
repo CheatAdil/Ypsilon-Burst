@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac00598b303c172429382b97d5921f23, type: 3}
+  m_Name: LMG
+  m_EditorClassIdentifier: 
+  iD: 3
+  Bullet: {fileID: 2490896448035760208, guid: aacfc70a0ebf36443ae9a295327777cf, type: 3}
+  Damage: 5
+  BulletSpeed: 1500
+  RateOfFire: 0.1
+  Energy: 1
+  weaponSound: {fileID: 8300000, guid: 0f8aca64f2107bf4bb982f7168afa0b6, type: 3}
